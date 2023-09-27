@@ -58,7 +58,6 @@ function openTab(tabName) {
       document.getElementById(tabName).style.display = "block";
 
       if (tabName === "ListPendaftar") {
-            const pendaftarTable = document.getElementsByClassName("pendaftarTable");
             const pendaftarBody = document.getElementById("pendaftarBody");
             const resume = document.getElementById("resume");
 
