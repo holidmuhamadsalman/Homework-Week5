@@ -72,8 +72,8 @@ function openTab(tabName) {
             });
 
             // Hitung rata-rata umur dan uangsangu sangu
-            const { rataRataUmur, rataRataUang } = pendaftar.hitungRataRata();
-            resume.textContent = `Rata-rata pendaftar memiliki uangsangu sangu sebesar ${rataRataUang.toFixed(2)} dengan rata-rata umur ${rataRataUmur.toFixed(2)} tahun.`;
+            const { rataRataUmur, rataRataUangsangu } = pendaftar.hitungRataRata();
+            resume.textContent = `Rata-rata pendaftar memiliki uangsangu sangu sebesar ${rataRataUangsangu.toFixed(2)} dengan rata-rata umur ${rataRataUmur.toFixed(2)} tahun.`;
       }
 }
 openTab("Registrasi");
